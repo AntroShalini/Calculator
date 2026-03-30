@@ -14,6 +14,7 @@ function clearDisplay() {
 
 function calculate() {
     try {
+        
         display.innerText = eval(display.innerText);
     } catch {
         display.innerText = "Error";
